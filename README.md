@@ -1,5 +1,36 @@
 # Backend Challenge
 
+## Solution
+
+### How to execute the application
+
+1. Create a text file with valid input as described in the **INPUT** section below
+2. Execute the command app:electric-vehicle:navigation with the file as its only and required argument:
+```
+./app/app.php app:electric-vehicle:navigation /path/to/electric-vehicles-navigation.txt
+```
+This will output to the console the information about the city created, the electric vehicles deployed and where they ended their navigation.
+
+The final position of each electric vehicle can be found in ElectricVehicleCollection after the navigation has finished, so it can be saved into a file if required, for example.
+### Executing tests
+
+In order to run the application test, execute the PHPUnit command
+```
+phpunit tests
+```
+
+### Improvements proposal
+Nothing is perfect and there is always a way to improve, these are some of those things that could make this application even better:
+- Give each electric vehicle, city and instruction a UUID and refer to them through a shared UuiDValueObject and a repository.
+- Through command design pattern (which base is already implemented in this app), let the user go back and forth through the navigation.
+- Display a visual representation of the navigation.
+- Add some more validations:
+    - City limits are not negative integers.
+    - ...
+- Improve test model generators to some kind of fixtures or a more robust alternative.
+- Increase tests coverage.
+
+
 ## Learning Competencies
 - Challenge understanding.
 - Implement Object Oriented Desing, DDD, patterns and best practices.
