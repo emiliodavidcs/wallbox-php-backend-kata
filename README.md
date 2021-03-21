@@ -5,9 +5,11 @@
 ### How to execute the application
 
 1. Create a text file with valid input as described in the **INPUT** section below
-2. Execute the command app:electric-vehicle:navigation with the file as its only and required argument:
+2. Execute the command app:electric-vehicle:navigation with the file as its only and required argument.
+
+Here is an execution command with an example input file:
 ```
-./app/app.php app:electric-vehicle:navigation /path/to/electric-vehicles-navigation.txt
+./app/app.php app:electric-vehicle:navigation ./app/example/example-electric-vehicle-navigation.txt
 ```
 This will output to the console the information about the city created, the electric vehicles deployed and where they ended their navigation.
 
