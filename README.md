@@ -4,10 +4,14 @@
 
 ### How to execute the application
 
-1. Create a text file with valid input as described in the **INPUT** section below
-2. Execute the command app:electric-vehicle:navigation with the file as its only and required argument.
+1. Install project dependencies.
+    ```
+    composer install
+    ```
+2. Create a text file with valid input as described in the **INPUT** section below (or use the example one: app/example/example-electric-vehicle-navigation.txt).
+3. Execute the command app:electric-vehicle:navigation with the file as its only and required argument.
 
-Here is an execution command with an example input file:
+Here is an execution command with the example input file:
 ```
 ./app/app.php app:electric-vehicle:navigation ./app/example/example-electric-vehicle-navigation.txt
 ```
