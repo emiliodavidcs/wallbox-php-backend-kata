@@ -51,7 +51,7 @@ class NavigationParserTest extends TestCase
             'Electric Vehicle 1 Position Mock',
             'Electric Vehicle 1 Instructions Mock',
             'Electric Vehicle 2 Position Mock',
-            'Electric Vehicle 1 Instructions Mock',
+            'Electric Vehicle 2 Instructions Mock',
         ];
 
         $navigationParser = new NavigationParser($cityParser, $positionParser, $instructionParser);
